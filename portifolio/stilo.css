@@ -1,0 +1,397 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #310b2b;
+  padding: 1.6%;
+  text-align: left;
+  word-spacing: 0.6%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 9999;
+}
+
+.imagem-perfil {
+  position: absolute;
+  top: 16%;
+  right: 12%;
+  width: 20%;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.meu-nome {
+  position: absolute;
+  top: 70%;
+  right: 13%;
+}
+
+.localização {
+  position: absolute;
+  top: 75%;
+  right: 23.5%;
+}
+
+.sobre_mim {
+  position: absolute;
+  top: 28%;
+  right: 57%;
+  max-width: 30%;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+}
+
+.seletor {
+  width: 40%;
+  height: 55%;
+  border-radius: 30px;
+  position: absolute;
+  top: 16%;
+  right: 50%;
+  background-color: #26224f;
+}
+
+.sobremim {
+  position: absolute;
+  top: 24%;
+  right: 77.7%;
+  background-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, pink, hotpink, red, orange, yellow, green);
+  background-size: 800% 800%;
+  animation: rainbow-animation 6s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes rainbow-animation {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.cursos-info-fundo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 105%;
+  background-color: #26224f;
+  position: absolute;
+  right: 0%;
+}
+
+.curso {
+  position: absolute;
+  top: 110%;
+  right: 48%;
+  color: aquamarine;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 250%;
+}
+
+.img1 {
+  position: absolute;
+  top: 140%;
+  right: 70%;
+  border-radius: 12%;
+  overflow: hidden;
+}
+
+.curso1 {
+  position: absolute;
+  top: 140%;
+  max-width: 15.8%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  right: 51%;
+  color: whitesmoke;
+}
+
+.img2 {
+  position: absolute;
+  top: 140%;
+  right: 30%;
+}
+
+.curso2 {
+  position: absolute;
+  top: 138%;
+  right: 7%;
+  max-width: 21.1%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+
+.img3 {
+  position: absolute;
+  top: 170%;
+  right: 47%;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.curso3 {
+  position: absolute;
+  top: 170%;
+  right: 22%;
+  max-width: 25%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+
+.fundo-disciplinas {
+  width: 100%;
+  height: 100%;
+  top: 205%;
+  background-color: aliceblue;
+  position: absolute;
+  right: 0%;
+}
+
+.fundo-html {
+  width: 100%;
+  height: 100%;
+  top: 5%;
+  background-color: aliceblue;
+  position: absolute;
+  right: 0%;
+}
+
+.curso-texto {
+  position: absolute;
+  top: 210%;
+  right: 37%;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 220%;
+}
+
+.dis-texto {
+  position: absolute;
+  top: 219%;
+  right: 46%;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 170%;
+}
+
+.foto-tub {
+  position: absolute;
+  top: 214%;
+  right: 27%;
+}
+
+.quadrado {
+  width: 70%;
+  height: 60%;
+  border-radius: 0px;
+  position: absolute;
+  top: 235%;
+  right: 15%;
+  background-color: #26224f;
+}
+
+.retangulo1 {
+  width: 17%;
+  height: 9%;
+  border-radius: 15px;
+  position: absolute;
+  top: 245%;
+  right: 63%;
+  background-color: #800020;
+}
+
+.retangulo2 {
+  width: 17%;
+  height: 9%;
+  border-radius: 15px;
+  position: absolute;
+  top: 245%;
+  right: 41%;
+  background-color: #800020;
+}
+
+.retangulo3 {
+  width: 17%;
+  height: 9%;
+  border-radius: 15px;
+  position: absolute;
+  top: 245%;
+  right: 18%;
+  background-color: #800020;
+}
+
+.retangulo4 {
+  width: 17%;
+  height: 9%;
+  border-radius: 15px;
+  position: absolute;
+  top: 263%;
+  right: 63%;
+  background-color: #800020;
+}
+
+.retangulo5 {
+  width: 17%;
+  height: 9%;
+  border-radius: 15px;
+  position: absolute;
+  top: 263%;
+  right: 41%;
+  background-color: #800020;
+}
+
+.retangulo6 {
+  width: 17%;
+  height: 9%;
+  border-radius: 15px;
+  position: absolute;
+  top: 263%;
+  right: 18%;
+  background-color: #800020;
+}
+
+.retangulo7 {
+  width: 17%;
+  height: 9%;
+  border-radius: 15px;
+  position: absolute;
+  top: 281%;
+  right: 41%;
+  background-color: #800020;
+}
+
+.algoritmo {
+  position: absolute;
+  top: 244%;
+  right: 68%;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  font-size: 150%;
+}
+
+.requisitos {
+  position: absolute;
+  top: 242%;
+  right: 43%;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  font-size: 95%;
+  max-width: 12.6%;
+}
+
+.etica {
+  position: absolute;
+  top: 242%;
+  right: 18.5%;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  font-size: 100%;
+  max-width: 12.6%;
+}
+
+.gestao {
+  position: absolute;
+  top: 263%;
+  right: 66%;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  font-size: 120%;
+  max-width: 12.6%;
+}
+
+.pratica {
+  position: absolute;
+  top: 260%;
+  right: 19%;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  font-size: 100%;
+  max-width: 12.6%;
+}
+
+.programação {
+  position: absolute;
+  top: 260%;
+  right: 41%;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  font-size: 100%;
+  max-width: 15%;
+}
+
+.praticas {
+  position: absolute;
+  top: 278%;
+  right: 40%;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  font-size: 100%;
+  max-width: 15%;
+}
+
+.contato {
+  margin-top: 160%;
+}
+
+.contact-form {
+  max-width: 31.6%;
+  margin: 0 auto;
+  padding: 1.6%;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.6%;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.8%;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 1.6%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.fundo-cont {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 300%;
+  background-color: #26224f;
+  position: absolute;
+  right: 0%;
+  z-index: -1;
+}

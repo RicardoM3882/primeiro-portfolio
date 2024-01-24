@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="stilo.css">
+  <title>Ricardo Machado</title>
+</head>
+<body>
+  <div class="fundo-html"></div>
+  <div class="html"></div>
+        <header>
+          <div class="menu">
+            <nav class="menu-list">
+               <a href="#home" onclick="scrollToPercentage(0);" style="color:aquamarine; text-decoration: none;">homeㅤ</a>
+               <a href="#cursos" onclick="scrollToPercentage(35);" style="color:aquamarine; text-decoration: none;">cursosㅤ</a>
+               <a href="#disciplinas" onclick="scrollToPercentage(68);" style="color:aquamarine; text-decoration: none;">disciplinasㅤ</a>
+               <a href="#contato" onclick="scrollToPercentage(100);" style="color:aquamarine; text-decoration: none;">contato</a>
+            </nav>
+          </div>
+        </header>
+        <div class="seletor"></div>
+        <section id="#home">
+          <div class="home-info">
+            <img class="imagem-perfil" src="20230603_132640.jpg" alt="imagem-perfil">
+            <h2 class="meu-nome">Ricardo Barbosa Machado</h2>
+            <h3 class="localização">Saquarema, Rj</h3>
+            <h3 class="sobre_mim"><p>Olá, me chamo Ricardo e atualmente tenho 22 anos e nascido em Saquarema. Des de jovem já mexia com informática, e a partir dos meus 15 anos que tive meu primeiro curso sobre computação, agora com meus 22 anos iniciei minha faculdade de engenharia de software, para dar continuidade em uma área que eu sempre fui apaixonado. Além disso eu também sou viciado em academia e apaixonado por carros e por jogos eletrônicos, e que muitas pessoas me conhecem virtualmente como “Deoxyszin”. </p></h3>
+            <h1 class="sobremim">Sobre mim</h1>
+          </div>
+        </section>
+        <section id="#cursos">
+          <div class="cursos-info-fundo"></div>
+          <div class="cursos-info"></div>
+          <h1 class="curso">Cursos</h1>
+          <h3 class="curso1">Atualmente estou cursando o ensino superior de engenharia de software, na Universidade de Vassouras</h3>
+          <div class="img1"><img src="univ.png" width="150px" height="150px"> </div>
+          <h3 class="curso2"><p>Excel basico<br>Photoshop do zero ao profissional<br>Ingles nivel basico</p></h3>
+          <div class="img2"><img src="quali.png" width="150px" height="150px"></div>
+          <div class="img3"><img src="udemy.png" width="150px" height="150px"></div>
+          <h3 class="curso3"><p>Curso web design completo(iniciado)<br>Javascript(iniciado)</p></h3>
+          <h3 class="Lab1"><p>Laboratório de programação de web sites</p></h3>
+        </section>
+        <section class="contato">
+          <div class="contact-form">
+            <h2>Entre em contato</h2>
+            <form>
+              <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+        </section>
+      <div class="fundo-cont"></div>
+      <script src="java.js"></script>
+      </body>
+</html> 
